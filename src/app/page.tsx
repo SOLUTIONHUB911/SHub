@@ -1,3 +1,5 @@
+import Footer from "@/components/Footercomponents";
+import Gallery from "@/components/Gallerycomponents";
 import Hero from "@/components/Herocomponents";
 import ListOfSchools from "@/components/ListOfSchoolscomponents";
 import WhatWeDo from "@/components/WhatWeDocomponents";
@@ -10,6 +12,8 @@ export default function Home() {
       <WhatWeDo />
       <WhatWeOffer />
       <ListOfSchools />
+      <Gallery />
+      <Footer />
     </div>
   )
 }
